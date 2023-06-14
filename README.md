@@ -14,7 +14,7 @@
     .
     <a href="https://www.mmlab-ntu.com/person/ccloy/"><strong>Chen Change Loy</strong></a>
     .
-    <a href="https://robotics.pkusz.edu.cn/"><strong>Mengyuan Liu*</strong></a>
+    <a href="https://www.ece.pku.edu.cn/info/1046/2596.htm"><strong>Mengyuan Liu*</strong></a>
   </p>
 
   <p align="center">
