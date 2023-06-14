@@ -43,6 +43,12 @@ Visualization of predictions obtained by our Point-In-Context and their correspo
 
 ![visual](./assets/imgs/visualization_main_00.jpg)
 
-## Note!!!!
+## Code
 
 **The code will be released**
+
+## Citation
+If you think Point-In-Context is helpful in your research, please consider referring Point-In-Context:
+```bibtex
+
+```
