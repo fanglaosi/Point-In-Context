@@ -37,6 +37,16 @@ Our work is the first to explore in-context learning in 3D point clouds, includi
 
 With the rise of large-scale models trained on broad data, in-context learning has become a new learning paradigm that has demonstrated significant potential in natural language processing and computer vision tasks. Meanwhile, in-context learning is still largely unexplored in the 3D point cloud domain, which has gained increasing popularity in recent years. Although masked modeling has been successfully applied for in-context learning in 2D vision, directly extending it to 3D point clouds remains a formidable challenge. In the case of point clouds, the tokens themselves are the point cloud positions (coordinates) that are masked during inference. Moreover, position embedding in previous works may inadvertently introduce information leakage. To address these challenges, we introduce a novel framework, named Point-In-Context, designed explicitly for in-context learning in 3D point cloud, where both inputs and outputs are modeled as coordinates for each task. Additionally, we propose the Joint Sampling module, carefully designed to work in tandem with the general point sampling operator, effectively resolving the aforementioned technical issues. We conduct extensive experiments to validate the versatility and adaptability of our proposed methods in handling a wide range of tasks. Furthermore, with a more effective prompt selection strategy, our framework surpasses the performance of individually trained models.
 
+## Point-In-Contxt
+
+![PIC-Sep](./assets/imgs/framework_00.jpg)
+
+**Point-In-Context-Sep**. _Top_: During training, each sample comprises two pairs of input and target point clouds that tackle the same task. These pairs are fed into the transformer model to perform the masked point reconstruction task, which follows a random masking process. _Bottom_: In-context inference on multitask. Our Point-In-Context could infer results on various downstream point cloud tasks, including reconstruction, denoising, registration, and part segmentation.
+
+![PIC-Cat](./assets/imgs/Supp_PIC-Cat_00.jpg)
+
+**Point-In-Context-Cat**. Unlike PIC-Sep, PIC-Cat concatenates the input and target to form a new point cloud.
+
 ## Visualization
 
 Visualization of predictions obtained by our Point-In-Context and their corresponding targets in different point cloud tasks.
