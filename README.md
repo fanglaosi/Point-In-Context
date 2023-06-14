@@ -67,7 +67,7 @@ With the rise of large-scale models trained on broad data, in-context learning h
 
 ## Visualization
 
-Visualization of predictions obtained by our Point-In-Context and their corresponding targets in different point cloud tasks.
+Visualization of predictions obtained by our PIC-Sep and their corresponding targets in different point cloud tasks.
 
 ![visual](./assets/imgs/visualization_main_00.jpg)
 
