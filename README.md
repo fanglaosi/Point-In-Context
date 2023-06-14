@@ -9,10 +9,8 @@
     <a href="https://lxtgh.github.io/"><strong>Xiangtai Li</strong></a>
     ·
     <a href="https://xialipku.github.io/"><strong>Xia Li</strong></a>
-    ·
-    <a href="https://ml.inf.ethz.ch/"><strong>Guangliang Cheng</strong></a>
     <br />
-    <a href="https://oceanpang.github.io/"><strong>Joachim M. Buhmann</strong></a>
+    <a href="ml.inf.ethz.ch/"><strong>Joachim M. Buhmann</strong></a>
     .
     <a href="https://www.mmlab-ntu.com/person/ccloy/"><strong>Chen Change Loy</strong></a>
     .
