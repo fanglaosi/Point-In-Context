@@ -71,6 +71,9 @@ Visualization of predictions obtained by our Point-In-Context and their correspo
 
 ![visual](./assets/imgs/visualization_main_00.jpg)
 
+Comparison results between our Point-In-Context (Sep & Cat) and multi-task models.
+
+
 ## Code
 
 **The code will be released upon the acceptance of the submission.**
