@@ -58,7 +58,7 @@ Visualization of predictions obtained by our Point-In-Context and their correspo
 
 ## Code
 
-**The code will be released**
+**The code will be released upon the acceptance of the submission.**
 
 ## Citation
 If you think Point-In-Context is helpful in your research, please consider referring Point-In-Context:
