@@ -31,7 +31,7 @@ Our work is the first to explore in-context learning in 3D point clouds, includi
 
 ![teaser](./assets/imgs/teaser_00.jpg)
 
-**(a)** In-context learning in NLP, **(b)** In-context learning in 2D vision, **(c)** Our proposed in-context learning for 3D point clouds
+**(a)** In-context learning in NLP, **(b)** In-context learning in 2D vision, **(c)** Our proposed in-context learning for 3D point clouds.
 
 
 ## Abstract
