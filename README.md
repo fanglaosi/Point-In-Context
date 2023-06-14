@@ -42,7 +42,7 @@ With the rise of large-scale models trained on broad data, in-context learning h
 
 ![PIC-Sep](./assets/imgs/framework_00.jpg)
 
-**Point-In-Context-Sep**. \color{#2F6EBA}{_Top_}: During training, each sample comprises two pairs of input and target point clouds that tackle the same task. These pairs are fed into the transformer model to perform the masked point reconstruction task, which follows a random masking process. \color{#2F6EBA}{_Bottom_}: In-context inference on multitask. Our Point-In-Context could infer results on various downstream point cloud tasks, including reconstruction, denoising, registration, and part segmentation.
+**Point-In-Context-Sep**. $\color{#2F6EBA}{Top}$: During training, each sample comprises two pairs of input and target point clouds that tackle the same task. These pairs are fed into the transformer model to perform the masked point reconstruction task, which follows a random masking process. $\color{#2F6EBA}{Bottom}$: In-context inference on multitask. Our Point-In-Context could infer results on various downstream point cloud tasks, including reconstruction, denoising, registration, and part segmentation.
 
 ![PIC-Cat](./assets/imgs/Supp_PIC-Cat_00.jpg)
 
