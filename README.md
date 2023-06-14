@@ -48,6 +48,22 @@ With the rise of large-scale models trained on broad data, in-context learning h
 
 **Point-In-Context-Cat**. Unlike PIC-Sep, PIC-Cat concatenates the input and target to form a new point cloud.
 
+## Features
+
+### $In-context learning for 3D understanding$
+
+- The first work to explore the application of in-context learning in the 3D domain.
+- A new framework for tackling multiple tasks, including reconstruction, denoising, registration, and part segmentation.
+
+### $New benchmark$
+
+- A new multi-task benchmark for evaluating the capability of processing multiple tasks.
+
+### $Strong performance$
+
+- Surpasses classical models (PointNet, DGCNN, PCT, PointMAE), which are equipped with multi-task heads.
+- Surpasses even task-specific models (PointNet, DGCNN, PCT) on registration when giving high-quality prompt.
+
 ## Visualization
 
 Visualization of predictions obtained by our Point-In-Context and their corresponding targets in different point cloud tasks.
