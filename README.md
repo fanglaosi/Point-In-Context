@@ -54,7 +54,7 @@ With the rise of large-scale models trained on broad data, in-context learning h
 
 - The first work to explore the application of in-context learning in the 3D domain.
 - A new framework for tackling multiple tasks (four tasks), which are unified into the same input-output space.
-- Could improve the performance of our Point-In-Context (Sep & Cat) by selecting more high-quality prompts.
+- Can improve the performance of our Point-In-Context (Sep & Cat) by selecting higher-quality prompts.
 
 ### $New\ benchmark$
 
@@ -63,7 +63,7 @@ With the rise of large-scale models trained on broad data, in-context learning h
 ### $Strong\ performance$
 
 - Surpasses classical models (PointNet, DGCNN, PCT, PointMAE), which are equipped with multi-task heads.
-- Surpasses even task-specific models (PointNet, DGCNN, PCT) on registration when giving high-quality prompts.
+- Surpasses even task-specific models (PointNet, DGCNN, PCT) on registration when given higher-quality prompts.
 
 ## Visualization
 
