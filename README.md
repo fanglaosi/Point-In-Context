@@ -27,7 +27,7 @@
   </p>
 <br />
 
-Our work is \color{#2F6EBA}{the first} to explore in-context learning in 3D point clouds, including task definition, benchmark, and baseline models.
+Our work is **<font color="#dd0000">the first</font>** to explore in-context learning in 3D point clouds, including task definition, benchmark, and baseline models.
 
 ![teaser](./assets/imgs/teaser_00.jpg)
 
