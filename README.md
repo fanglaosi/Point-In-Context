@@ -27,18 +27,18 @@
   </p>
 <br />
 
-Our work is <font color="red">the first</font> to explore in-context learning in 3D point clouds, including task definition, benchmark, and baseline models.
+❗❗❗ Our work is the **_first_** to explore in-context learning in 3D point clouds, including task definition, benchmark, and baseline models.
 
 ![teaser](./assets/imgs/teaser_00.jpg)
 
 **(a)** In-context learning in NLP, **(b)** In-context learning in 2D vision, **(c)** Our proposed in-context learning for 3D point clouds.
 
 
-## Abstract
+## ☀️Abstract
 
 With the rise of large-scale models trained on broad data, in-context learning has become a new learning paradigm that has demonstrated significant potential in natural language processing and computer vision tasks. Meanwhile, in-context learning is still largely unexplored in the 3D point cloud domain. Although masked modeling has been successfully applied for in-context learning in 2D vision, directly extending it to 3D point clouds remains a formidable challenge. In the case of point clouds, the tokens themselves are the point cloud positions (coordinates) that are masked during inference. Moreover, position embedding in previous works may inadvertently introduce information leakage. To address these challenges, we introduce a novel framework, named Point-In-Context, designed especially for in-context learning in 3D point clouds, where both inputs and outputs are modeled as coordinates for each task. Additionally, we propose the Joint Sampling module, carefully designed to work in tandem with the general point sampling operator, effectively resolving the aforementioned technical issues. We conduct extensive experiments to validate the versatility and adaptability of our proposed methods in handling a wide range of tasks. Furthermore, with a more effective prompt selection strategy, our framework surpasses the results of individually trained models.
 
-## Point-In-Context
+## ✋Point-In-Context
 
 ![PIC-Sep](./assets/imgs/framework_00.jpg)
 
@@ -48,7 +48,7 @@ With the rise of large-scale models trained on broad data, in-context learning h
 
 **Point-In-Context-Cat**. Unlike PIC-Sep, PIC-Cat concatenates the input and target to form a new point cloud.
 
-## Features
+## ⚡Features
 
 ### $In-context\ learning\ for\ 3D\ understanding$
 
@@ -65,7 +65,7 @@ With the rise of large-scale models trained on broad data, in-context learning h
 - Surpasses classical models (PointNet, DGCNN, PCT, PointMAE), which are equipped with multi-task heads.
 - Surpasses even task-specific models (PointNet, DGCNN, PCT) on registration when given higher-quality prompts.
 
-## Visualization
+## 😃Visualization
 
 In-context inference demo (part segmentation, denoising, registration).
 
@@ -79,7 +79,7 @@ Comparison results between our Point-In-Context (Sep & Cat) and multi-task model
 
 ![comparison](./assets/imgs/Supp_comparison_vis_00.jpg)
 
-## Code
+## ⬜Code
 
 **The code will be released upon the acceptance of the submission.**
 
