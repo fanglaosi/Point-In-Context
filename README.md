@@ -67,7 +67,7 @@ With the rise of large-scale models trained on broad data, in-context learning h
 
 ## Visualization
 
-In-context demo (part segmentation, denoising, registration).
+In-context inference demo (part segmentation, denoising, registration).
 
 ![in-context_demo](./assets/gifs/in-context_demo.gif)
 
