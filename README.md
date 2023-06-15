@@ -67,6 +67,10 @@ With the rise of large-scale models trained on broad data, in-context learning h
 
 ## Visualization
 
+In-context demo (part segmentation, denoising, registration).
+
+![in-context_demo](./assets/gifs/in-context_demo.gif)
+
 Visualization of predictions obtained by our PIC-Sep and their corresponding targets in different point cloud tasks.
 
 ![visual](./assets/imgs/visualization_main_00.jpg)
