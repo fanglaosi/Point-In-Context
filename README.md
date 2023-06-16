@@ -18,7 +18,7 @@
   </p>
 
   <p align="center">
-    <a href='https://arxiv.org/abs/2303.12782'>
+    <a href='https://arxiv.org/abs/2306.08659'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
     </a>
     <a href='https://github.com/fanglaosi/Point-In-Context' style='padding-left: 0.5rem;'>
