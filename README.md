@@ -67,7 +67,7 @@ With the rise of large-scale models trained on broad data, in-context learning h
 
 ## 😃Visualization
 
-In-context inference demo (part segmentation, denoising, registration).
+In-context inference demo (part segmentation, denoising, registration). Our Point-In-Context is designed to perform various tasks on a given query point cloud, adapting its operations based on different prompt pairs. Notably, the PIC has the ability to accurately predict the correct point cloud, even when provided with a clean input point cloud for the denoising task.
 
 ![in-context_demo](./assets/gifs/in-context_demo.gif)
 
