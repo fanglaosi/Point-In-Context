@@ -18,9 +18,9 @@
   </p>
 
   <p align="center">
-<!--     <a href='https://arxiv.org/abs/2303.12782'>
+    <a href='https://arxiv.org/abs/2303.12782'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
-    </a> -->
+    </a>
     <a href='https://github.com/fanglaosi/Point-In-Context' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
     </a>
