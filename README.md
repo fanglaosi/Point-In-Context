@@ -85,6 +85,11 @@ Comparison results between our Point-In-Context (Sep & Cat) and multi-task model
 
 ## Citation
 If you think Point-In-Context is helpful in your research, please consider referring Point-In-Context:
-```bibtex
-
+```
+@article{fang2023explore,
+  title={Explore In-Context Learning for 3D Point Cloud Understanding},
+  author={Fang, Zhongbin and Li, Xiangtai and Li, Xia and Buhmann, Joachim M and Loy, Chen Change and Liu, Mengyuan},
+  journal={arXiv preprint arXiv:2306.08659},
+  year={2023}
+}
 ```
