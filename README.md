@@ -151,4 +151,6 @@ If you find our work useful in your research, please consider citing:
 
 # Acknowledgement
 
-This work is built upon the [Point-MAE](https://github.com/Pang-Yatian/Point-MAE).
+This work is built upon the [Point-MAE](https://github.com/Pang-Yatian/Point-MAE), [Visual Prompt](https://github.com/amirbar/visual_prompting), [Painter](https://github.com/baaivision/Painter).
+
+Thanks to the following excellent works: [PointNet](https://github.com/fxia22/pointnet.pytorch), [DGCNN](https://github.com/WangYueFt/dgcnn), [PCT](https://github.com/MenghaoGuo/PCT), [Point-BERT](https://github.com/lulutang0608/Point-BERT), [ACT](https://github.com/RunpeiDong/ACT), [I2P-MAE](https://github.com/ZrrSkywalker/I2P-MAE), [ReCon](https://github.com/qizekun/ReCon); 
