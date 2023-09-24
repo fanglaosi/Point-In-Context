@@ -27,26 +27,15 @@
   </p>
 <br />
 
+<div  align="center">    
+ <img src="./assets/imgs/teaser_00.jpg" width = 1000  align=center />
+</div>
+
 ❗❗❗ Our work is the **_first_** to explore in-context learning in 3D point clouds, including task definition, benchmark, and baseline models.
-
-![teaser](./assets/imgs/teaser_00.jpg)
-
-**(a)** In-context learning in NLP, **(b)** In-context learning in 2D vision, **(c)** Our proposed in-context learning for 3D point clouds.
-
 
 ## ☀️Abstract
 
 With the rise of large-scale models trained on broad data, in-context learning has become a new learning paradigm that has demonstrated significant potential in natural language processing and computer vision tasks. Meanwhile, in-context learning is still largely unexplored in the 3D point cloud domain. Although masked modeling has been successfully applied for in-context learning in 2D vision, directly extending it to 3D point clouds remains a formidable challenge. In the case of point clouds, the tokens themselves are the point cloud positions (coordinates) that are masked during inference. Moreover, position embedding in previous works may inadvertently introduce information leakage. To address these challenges, we introduce a novel framework, named Point-In-Context, designed especially for in-context learning in 3D point clouds, where both inputs and outputs are modeled as coordinates for each task. Additionally, we propose the Joint Sampling module, carefully designed to work in tandem with the general point sampling operator, effectively resolving the aforementioned technical issues. We conduct extensive experiments to validate the versatility and adaptability of our proposed methods in handling a wide range of tasks. Furthermore, with a more effective prompt selection strategy, our framework surpasses the results of individually trained models.
-
-## ✋Point-In-Context
-
-![PIC-Sep](./assets/imgs/framework_00.jpg)
-
-**Point-In-Context-Sep**. $\color{#2F6EBA}{Top}$: During training, each sample comprises two pairs of input and target point clouds that tackle the same task. These pairs are fed into the transformer model to perform the masked point reconstruction task, which follows a random masking process. $\color{#2F6EBA}{Bottom}$: In-context inference on multitask. Our Point-In-Context could infer results on various downstream point cloud tasks, including reconstruction, denoising, registration, and part segmentation.
-
-![PIC-Cat](./assets/imgs/Supp_PIC-Cat_00.jpg)
-
-**Point-In-Context-Cat**. Unlike PIC-Sep, PIC-Cat concatenates the input and target to form a new point cloud.
 
 ## ⚡Features
 
@@ -65,26 +54,69 @@ With the rise of large-scale models trained on broad data, in-context learning h
 - Surpasses classical models (PointNet, DGCNN, PCT, PointMAE), which are equipped with multi-task heads.
 - Surpasses even task-specific models (PointNet, DGCNN, PCT) on registration when given higher-quality prompts.
 
+## ✋Run
+
+### 1. Requirements
+PyTorch >= 1.7.0 < 1.11.0;
+python >= 3.7;
+CUDA >= 9.0;
+GCC >= 4.9;
+torchvision;
+
+```
+pip install -r requirements.txt
+```
+
+Chamfer Distance & embedding
+```
+cd ./extensions/chamfer_dist
+python setup.py install --user
+cd ./extensions/emd
+python setup.py install --user
+```
+
+Pytorch3d
+```
+git clone https://github.com/facebookresearch/pytorch3d.git
+cd pytorch3d
+export CUB_HOME=/usr/local/cuda/include/
+FORCE_CUDA=1 python setup.py install
+```
+
+### 2. Dataset Generation
+
+You can preprocess the dataset yourself, see the [data_processing](./data/DATASET.md).
+
+Alternatively, we have provided the [pre-processed_datasets](https://drive.google.com/file/d/10z9s3S_r_HEckWZXHnIQkvDF6BdbNOXs/view?usp=sharing) (recommend). Please download it and unzip it in ```data/```
+
+### 3. Training Point-In-Context
+To train Point-In-Context on our dataset, run the following command:
+
+```
+CUDA_VISIBLE_DEVICES=<GPU> python main.py --config cfgs/PIC_Sep.yaml --exp_name exp/training/PIC_Sep
+```
+
+### 4. Evaluation
+To evaluate the performance on Part Segmentation task, run the following command:
+```
+CUDA_VISIBLE_DEVICES=0 python eval_seg.py --config cfgs/PIC_Sep.yaml --exp_name exp/evaluate/PIC_Sep --ckpts exp/training/PIC_Sep/ckpt-best.pth --data_path <path_to_data>
+```
+To evaluate the performance on Reconstruction, Denoising, Registration tasks, run the following command:
+```
+CUDA_VISIBLE_DEVICES=0 python eval_cd.py --config cfgs/PIC_Sep.yaml --exp_name exp/evaluate/PIC_Sep --ckpts exp/training/PIC_Sep/ckpt-best.pth --data_path <path_to_data>
+```
+
 ## 😃Visualization
 
-In-context inference demo (part segmentation, denoising, registration). Our Point-In-Context is designed to perform various tasks on a given query point cloud, adapting its operations based on different prompt pairs. Notably, the PIC has the ability to accurately predict the correct point cloud, even when provided with a clean input point cloud for the denoising task.
+<div  align="center">    
+ <img src="./assets/imgs/visualization_main_00.jpg" width = 1000  align=center />
+</div>
 
-![in-context_demo](./assets/gifs/in-context_demo.gif)
-
-Visualization of predictions obtained by our PIC-Sep and their corresponding targets in different point cloud tasks.
-
-![visual](./assets/imgs/visualization_main_00.jpg)
-
-Comparison results between our Point-In-Context (Sep & Cat) and multi-task models.
-
-![comparison](./assets/imgs/Supp_comparison_vis_00.jpg)
-
-## ⬜Code
-
-**The code will be released upon the acceptance of the submission.**
+## License
+MIT License
 
 ## Citation
-If you think Point-In-Context is helpful in your research, please consider referring Point-In-Context:
+If you find our work useful in your research, please consider citing: 
 ```
 @article{fang2023explore,
   title={Explore In-Context Learning for 3D Point Cloud Understanding},
@@ -93,3 +125,7 @@ If you think Point-In-Context is helpful in your research, please consider refer
   year={2023}
 }
 ```
+
+## Acknowledgement
+
+This work is built upon the [Point-MAE](https://github.com/Pang-Yatian/Point-MAE).
