@@ -41,7 +41,7 @@ With the rise of large-scale models trained on broad data, in-context learning h
 
 # 🙂News
 
-- [2023.9.24] Training and testing code is released!
+- [2023.9.24] Training and testing code is released, and [PIC-Sep](https://drive.google.com/file/d/1Dkq5V9LNNGBgxWcPo8tkWC05Yi7DCre3/view?usp=sharing) and [PIC-Cat](https://drive.google.com/file/d/1Dkq5V9LNNGBgxWcPo8tkWC05Yi7DCre3/view?usp=sharing) is released
 - [2023.9.22] Our [Point-In-Context](https://arxiv.org/abs/2306.08659) is accepted at NeurIPS 2023 as a spotlight! 🎉
 - [2023.6.16] Our [Point-In-Context](https://arxiv.org/abs/2306.08659) is released and GitHub repo is created.
 
@@ -119,10 +119,10 @@ CUDA_VISIBLE_DEVICES=0 python eval_cd.py --config cfgs/PIC_Sep.yaml --exp_name e
 # 📚Released Models
 
 
-| Name                                  | Params | Rec. (CD) | Deno. (CD) | Reg. (CD) | Part Seg. (mIOU) |
-|---------------------------------------|:------:|:---------:|:----------:|:---------:|:----------------:|
-| [PIC-Sep](https://drive.google.com/file/d/1Dkq5V9LNNGBgxWcPo8tkWC05Yi7DCre3/view?usp=sharing)     | **28.9M**  |    **4.4**    |    **7.5**     |    **8.6**    |      **78.60**       |
-| [PIC-Cat](https://drive.google.com/file/d/1Dkq5V9LNNGBgxWcPo8tkWC05Yi7DCre3/view?usp=sharing) | **29.0M**  |    **4.9**    |    **6.0**     |   **14.4**    |      **79.75**       |
+| Name                                  | Params | Rec. (CD↓) | Deno. (CD↓) | Reg. (CD↓) | Part Seg. (mIOU↑) |
+|---------------------------------------|:------:|:----------:|:----------:|:---------:|:-----------------:|
+| [PIC-Sep](https://drive.google.com/file/d/1Dkq5V9LNNGBgxWcPo8tkWC05Yi7DCre3/view?usp=sharing)     | **28.9M**  |  **4.4**   |    **7.5**     |    **8.6**    |     **78.60**     |
+| [PIC-Cat](https://drive.google.com/file/d/1Dkq5V9LNNGBgxWcPo8tkWC05Yi7DCre3/view?usp=sharing) | **29.0M**  |  **4.9**   |    **6.0**     |   **14.4**    |     **79.75**     |
 
 > The above results are reimplemented  and are basically consistent with the results reported in the paper.
 
