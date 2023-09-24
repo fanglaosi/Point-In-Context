@@ -127,10 +127,13 @@ CUDA_VISIBLE_DEVICES=0 python eval_cd.py --config cfgs/PIC_Sep.yaml --exp_name e
 > The above results are reimplemented  and are basically consistent with the results reported in the paper.
 
 # 😃Visualization
+In-context inference demo (part segmentation, denoising, registration). Our Point-In-Context is designed to perform various tasks on a given query point cloud, adapting its operations based on different prompt pairs. Notably, the PIC has the ability to accurately predict the correct point cloud, even when provided with a clean input point cloud for the denoising task.
 
-<div  align="center">    
- <img src="./assets/imgs/visualization_main_00.jpg" width = 1000  align=center />
-</div>
+![in-context_demo](./assets/gifs/in-context_demo.gif)
+
+Visualization of predictions obtained by our PIC-Sep and their corresponding targets in different point cloud tasks.
+
+![visual](./assets/imgs/visualization_main_00.jpg)
 
 # License
 MIT License
