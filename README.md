@@ -33,37 +33,36 @@
 
 ❗❗❗ Our work is the **_first_** to explore in-context learning in 3D point clouds, including task definition, benchmark, and baseline models.
 
-[//]: # (## ☀️Abstract)
+## ☀️Abstract
 
-[//]: # ()
-[//]: # (With the rise of large-scale models trained on broad data, in-context learning has become a new learning paradigm that has demonstrated significant potential in natural language processing and computer vision tasks. Meanwhile, in-context learning is still largely unexplored in the 3D point cloud domain. Although masked modeling has been successfully applied for in-context learning in 2D vision, directly extending it to 3D point clouds remains a formidable challenge. In the case of point clouds, the tokens themselves are the point cloud positions &#40;coordinates&#41; that are masked during inference. Moreover, position embedding in previous works may inadvertently introduce information leakage. To address these challenges, we introduce a novel framework, named Point-In-Context, designed especially for in-context learning in 3D point clouds, where both inputs and outputs are modeled as coordinates for each task. Additionally, we propose the Joint Sampling module, carefully designed to work in tandem with the general point sampling operator, effectively resolving the aforementioned technical issues. We conduct extensive experiments to validate the versatility and adaptability of our proposed methods in handling a wide range of tasks. Furthermore, with a more effective prompt selection strategy, our framework surpasses the results of individually trained models.)
 
-[//]: # ()
-[//]: # (## ⚡Features)
+With the rise of large-scale models trained on broad data, in-context learning has become a new learning paradigm that has demonstrated significant potential in natural language processing and computer vision tasks. Meanwhile, in-context learning is still largely unexplored in the 3D point cloud domain. Although masked modeling has been successfully applied for in-context learning in 2D vision, directly extending it to 3D point clouds remains a formidable challenge. In the case of point clouds, the tokens themselves are the point cloud positions (coordinates) that are masked during inference. Moreover, position embedding in previous works may inadvertently introduce information leakage. To address these challenges, we introduce a novel framework, named Point-In-Context, designed especially for in-context learning in 3D point clouds, where both inputs and outputs are modeled as coordinates for each task. Additionally, we propose the Joint Sampling module, carefully designed to work in tandem with the general point sampling operator, effectively resolving the aforementioned technical issues. We conduct extensive experiments to validate the versatility and adaptability of our proposed methods in handling a wide range of tasks. Furthermore, with a more effective prompt selection strategy, our framework surpasses the results of individually trained models.
 
-[//]: # ()
-[//]: # (### $In-context\ learning\ for\ 3D\ understanding$)
 
-[//]: # ()
-[//]: # (- The first work to explore the application of in-context learning in the 3D domain.)
+## 🙂News
 
-[//]: # (- A new framework for tackling multiple tasks &#40;four tasks&#41;, which are unified into the same input-output space.)
+- [2023.9.24] Training and testing code is released!
+- [2023.9.22] Our [Point-In-Context](https://arxiv.org/abs/2306.08659) is accepted at NeurIPS 2023 as a spotlight! 🎉
+- [2023.6.16] Our [Point-In-Context](https://arxiv.org/abs/2306.08659) is released and GitHub repo is created.
 
-[//]: # (- Can improve the performance of our Point-In-Context &#40;Sep & Cat&#41; by selecting higher-quality prompts.)
+## ⚡Features
 
-[//]: # ()
-[//]: # (### $New\ benchmark$)
 
-[//]: # ()
-[//]: # (- A new multi-task benchmark for evaluating the capability of processing multiple tasks, including reconstruction, denoising, registration, and part segmentation.)
+### In-context learning for 3D understanding
 
-[//]: # ()
-[//]: # (### $Strong\ performance$)
 
-[//]: # ()
-[//]: # (- Surpasses classical models &#40;PointNet, DGCNN, PCT, PointMAE&#41;, which are equipped with multi-task heads.)
+- The first work to explore the application of in-context learning in the 3D domain.
+- A new framework for tackling multiple tasks (four tasks), which are unified into the same input-output space.
+- Can improve the performance of our Point-In-Context (Sep & Cat) by selecting higher-quality prompts.
 
-[//]: # (- Surpasses even task-specific models &#40;PointNet, DGCNN, PCT&#41; on registration when given higher-quality prompts.)
+### New benchmark
+
+- A new multi-task benchmark for evaluating the capability of processing multiple tasks, including reconstruction, denoising, registration, and part segmentation.
+
+### Strong performance
+
+- Surpasses classical models (PointNet, DGCNN, PCT, PointMAE), which are equipped with multi-task heads.
+- Surpasses even task-specific models (PointNet, DGCNN, PCT) on registration when given higher-quality prompts.
 
 ## ✋Run
 
