@@ -141,11 +141,12 @@ MIT License
 # Citation
 If you find our work useful in your research, please consider citing: 
 ```
-@article{fang2023explore,
-  title={Explore In-Context Learning for 3D Point Cloud Understanding},
+@article{fang2024explore,
+  title={Explore in-context learning for 3d point cloud understanding},
   author={Fang, Zhongbin and Li, Xiangtai and Li, Xia and Buhmann, Joachim M and Loy, Chen Change and Liu, Mengyuan},
-  journal={arXiv preprint arXiv:2306.08659},
-  year={2023}
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024}
 }
 ```
 
