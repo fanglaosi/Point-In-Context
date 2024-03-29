@@ -2,7 +2,7 @@
 <p align="center">
   <h1 align="center">Explore In-Context Learning for 3D Point Cloud Understanding</h1>
   <p align="center">
-    NeurIPS, 2023
+    NeurIPS (Spotlight), 2023
     <br />
     <a href="https://github.com/fanglaosi/"><strong>Zhongbin Fang</strong></a>
     ·
