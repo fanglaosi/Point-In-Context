@@ -1,4 +1,43 @@
-<br />
+<p align="center">
+  <h1 align="center">Point-In-Context: Understanding Point Cloud via 
+
+In-Context Learning</h1>
+  <p align="center">
+    Aexiv, 2024
+    <br />
+    <a href="https://www.ece.pku.edu.cn/info/1046/2596.htm"><strong>Mengyuan Liu</strong></a>
+    ·
+    <a href="https://github.com/fanglaosi/"><strong>Zhongbin Fang📧</strong></a>
+    ·
+    <a href="https://xialipku.github.io/"><strong>Xia Li📧</strong></a>
+    <br />
+    <a href="ml.inf.ethz.ch/"><strong>Joachim M. Buhmann</strong></a>
+    .
+    <a href="https://lxtgh.github.io/"><strong>Xiangtai Li</strong></a>
+    .
+    <a href="https://www.mmlab-ntu.com/person/ccloy/"><strong>Chen Change Loy</strong></a>
+  </p>
+
+  <p align="center">
+    <a href='https://arxiv.org/abs/2404.12352'>
+      <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='arXiv PDF'>
+    </a>
+    <a href='https://fanglaosi.github.io/Point-In-Context_Pages/' style='padding-left: 0.5rem;'>
+      <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+    </a>
+  </p>
+
+> ❗❗❗ Please click the <a href='https://fanglaosi.github.io/Point-In-Context_Pages/' style='padding-left: 0.5rem;'>
+      <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+    </a> button to view our new extended journal paper
+    <a href='https://arxiv.org/abs/2404.12352'>
+      <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='arXiv PDF'>
+    </a>: **Point-In-Context: Understanding Point Cloud via In-Context Learning, 2024.** 
+    Based on the previous conference paper, we further propose **Point-In-Context-Segmenter (PIC-S)**. PIC-S possess strong performance and 
+**generalization ability** in segmentation tasks. It can **generalize to unseen datasets** and can also **perform part-specific segmentation** by customizing unique prompts.
+
+> Ps: the code of PIC-S will be available soon.
+
 <p align="center">
   <h1 align="center">Explore In-Context Learning for 3D Point Cloud Understanding</h1>
   <p align="center">
@@ -14,7 +53,7 @@
     .
     <a href="https://www.mmlab-ntu.com/person/ccloy/"><strong>Chen Change Loy</strong></a>
     .
-    <a href="https://www.ece.pku.edu.cn/info/1046/2596.htm"><strong>Mengyuan Liu*</strong></a>
+    <a href="https://www.ece.pku.edu.cn/info/1046/2596.htm"><strong>Mengyuan Liu📧</strong></a>
   </p>
 
   <p align="center">
@@ -27,16 +66,7 @@
   </p>
 <br />
 
-> ❗❗❗ Please click the <a href='https://fanglaosi.github.io/Point-In-Context_Pages/' style='padding-left: 0.5rem;'>
-      <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
-    </a> button to view our new extended journal paper
-    <a href='https://arxiv.org/abs/2404.12352'>
-      <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='arXiv PDF'>
-    </a>: **Point-In-Context: Understanding Point Cloud via In-Context Learning, 2024.** 
-    Based on the previous conference paper, we further propose **Point-In-Context-Segmenter (PIC-S)**. PIC-S possess strong performance and 
-**generalization ability** in segmentation tasks. It can **generalize to unseen datasets** and can also **perform part-specific segmentation** by customizing unique prompts.
 
-> Ps: the code of PIC-S will be available soon.
 
 <div  align="center">    
  <img src="./assets/imgs/teaser_00.jpg" width = 1000  align=center />
