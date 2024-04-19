@@ -3,7 +3,7 @@
 
 In-Context Learning</h1>
   <p align="center">
-    Aexiv, 2024
+    Arxiv, 2024
     <br />
     <a href="https://www.ece.pku.edu.cn/info/1046/2596.htm"><strong>Mengyuan Liu</strong></a>
     ·
