@@ -21,7 +21,7 @@
     <a href='https://arxiv.org/abs/2306.08659'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
     </a>
-    <a href='https://github.com/fanglaosi/Point-In-Context' style='padding-left: 0.5rem;'>
+    <a href='https://fanglaosi.github.io/Point-In-Context_Pages/' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
     </a>
   </p>
