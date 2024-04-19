@@ -27,22 +27,34 @@
   </p>
 <br />
 
+> ❗❗❗ Please click the <a href='https://fanglaosi.github.io/Point-In-Context_Pages/' style='padding-left: 0.5rem;'>
+      <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+    </a> button to view our new extended journal paper
+    <a href='https://arxiv.org/abs/2404.12352'>
+      <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='arXiv PDF'>
+    </a>: **Point-In-Context: Understanding Point Cloud via In-Context Learning, 2024.** 
+    Based on the previous conference paper, we further propose **Point-In-Context-Segmenter (PIC-S)**. PIC-S possess strong performance and 
+**generalization ability** in segmentation tasks. It can **generalize to unseen datasets** and can also **perform part-specific segmentation** by customizing unique prompts.
+
+> Ps: the code of PIC-S will be available soon.
+
 <div  align="center">    
  <img src="./assets/imgs/teaser_00.jpg" width = 1000  align=center />
 </div>
 
-❗❗❗ Our work is the **_first_** to explore in-context learning in 3D point clouds, including task definition, benchmark, and baseline models.
+⭐ Our work is the **_first_** to explore in-context learning in 3D point clouds, including task definition, benchmark, and baseline models.
 
-# ☀Abstract
+[//]: # (# ☀Abstract)
 
-
-With the rise of large-scale models trained on broad data, in-context learning has become a new learning paradigm that has demonstrated significant potential in natural language processing and computer vision tasks. Meanwhile, in-context learning is still largely unexplored in the 3D point cloud domain. Although masked modeling has been successfully applied for in-context learning in 2D vision, directly extending it to 3D point clouds remains a formidable challenge. In the case of point clouds, the tokens themselves are the point cloud positions (coordinates) that are masked during inference. Moreover, position embedding in previous works may inadvertently introduce information leakage. To address these challenges, we introduce a novel framework, named Point-In-Context, designed especially for in-context learning in 3D point clouds, where both inputs and outputs are modeled as coordinates for each task. Additionally, we propose the Joint Sampling module, carefully designed to work in tandem with the general point sampling operator, effectively resolving the aforementioned technical issues. We conduct extensive experiments to validate the versatility and adaptability of our proposed methods in handling a wide range of tasks. Furthermore, with a more effective prompt selection strategy, our framework surpasses the results of individually trained models.
+[//]: # ()
+[//]: # ()
+[//]: # (With the rise of large-scale models trained on broad data, in-context learning has become a new learning paradigm that has demonstrated significant potential in natural language processing and computer vision tasks. Meanwhile, in-context learning is still largely unexplored in the 3D point cloud domain. Although masked modeling has been successfully applied for in-context learning in 2D vision, directly extending it to 3D point clouds remains a formidable challenge. In the case of point clouds, the tokens themselves are the point cloud positions &#40;coordinates&#41; that are masked during inference. Moreover, position embedding in previous works may inadvertently introduce information leakage. To address these challenges, we introduce a novel framework, named Point-In-Context, designed especially for in-context learning in 3D point clouds, where both inputs and outputs are modeled as coordinates for each task. Additionally, we propose the Joint Sampling module, carefully designed to work in tandem with the general point sampling operator, effectively resolving the aforementioned technical issues. We conduct extensive experiments to validate the versatility and adaptability of our proposed methods in handling a wide range of tasks. Furthermore, with a more effective prompt selection strategy, our framework surpasses the results of individually trained models.)
 
 
 # 🙂News
-
+- [2024.4.19] Our extended journal paper, [Point-In-Context-Segmenter](https://arxiv.org/abs/2404.12352), is released on Arxiv. ⭐⭐⭐
 - [2023.9.24] Training and testing code is released, and [PIC-Sep](https://drive.google.com/file/d/1Dkq5V9LNNGBgxWcPo8tkWC05Yi7DCre3/view?usp=sharing) and [PIC-Cat](https://drive.google.com/file/d/1Dkq5V9LNNGBgxWcPo8tkWC05Yi7DCre3/view?usp=sharing) is released
-- [2023.9.22] Our [Point-In-Context](https://arxiv.org/abs/2306.08659) is accepted at NeurIPS 2023 as a spotlight! 🎉
+- [2023.9.22] Our [Point-In-Context](https://arxiv.org/abs/2306.08659) is accepted at NeurIPS 2023 as a spotlight! 🎉🎉🎉
 - [2023.6.16] Our [Point-In-Context](https://arxiv.org/abs/2306.08659) is released and GitHub repo is created.
 
 # ⚡Features
@@ -141,6 +153,12 @@ MIT License
 # Citation
 If you find our work useful in your research, please consider citing: 
 ```
+@article{liu2024pointincontext,
+  title={Point-In-Context: Understanding Point Cloud via In-Context Learning}, 
+  author={Liu, Mengyuan and Fang, Zhongbin and Li, Xia and Buhmann, Joachim M and Li, Xiangtai and Loy, Chen Change},
+  journal={arXiv preprint arXiv:2401.08210},
+  year={2024}
+}
 @article{fang2024explore,
   title={Explore in-context learning for 3d point cloud understanding},
   author={Fang, Zhongbin and Li, Xiangtai and Li, Xia and Buhmann, Joachim M and Loy, Chen Change and Liu, Mengyuan},
