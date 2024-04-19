@@ -33,11 +33,12 @@ In-Context Learning</h1>
     <a href='https://arxiv.org/abs/2404.12352'>
       <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='arXiv PDF'>
     </a>: **Point-In-Context: Understanding Point Cloud via In-Context Learning, 2024.** 
-    Based on the previous conference paper, we further propose **Point-In-Context-Segmenter (PIC-S)**. PIC-S possess strong performance and 
+    Based on the previous conference paper, we further propose **Point-In-Context-Segmenter (PIC-S)**. PIC-S possesses strong performance and 
 **generalization ability** in segmentation tasks. It can **generalize to unseen datasets** and can also **perform part-specific segmentation** by customizing unique prompts.
 
 > Ps: the code of PIC-S will be available soon.
 
+<br />
 <p align="center">
   <h1 align="center">Explore In-Context Learning for 3D Point Cloud Understanding</h1>
   <p align="center">
