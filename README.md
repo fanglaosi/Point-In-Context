@@ -2,7 +2,7 @@
     <h1 align="center">Point-In-Context: Understanding Point Cloud via
     In-Context Learning</h1>
     <p align="center">
-    Arxiv, 2024
+    IJCV, 2026
     <br />
     <a href="https://www.ece.pku.edu.cn/info/1046/2596.htm"><strong>Mengyuan Liu</strong></a>
     ·
